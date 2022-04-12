@@ -1,32 +1,32 @@
 {
-  "name": "TYPESCRIPTSOLID",
+  "name": "TypeScript-Jest-Test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:frontend": "webpack -w",
-    "build:backend": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JCatulio/TYPESCRIPTSOLID.git"
+    "url": "git+https://github.com/JCatulio/TypeScript-Jest-Test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JCatulio/TYPESCRIPTSOLID/issues"
+    "url": "https://github.com/JCatulio/TypeScript-Jest-Test/issues"
   },
-  "homepage": "https://github.com/JCatulio/TYPESCRIPTSOLID#readme",
+  "homepage": "https://github.com/JCatulio/TypeScript-Jest-Test#readme",
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "@types/node": "^17.0.23",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
     "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
     "ts-loader": "^9.2.8",
     "ts-node": "^10.7.0",
     "typescript": "^3.9.5",
